@@ -25,5 +25,7 @@ CMD ["node","server.js"]
 # RUN npm install
 # RUN apt-get update -y \
 #     && apt-get install net-tools git -y \
-#     && apt-get clean
+#     && apt-get clean   
+#instead of giving multiple run instruction which instead extecute multiple layer
+# its better go with option single instruction using backslash[/] and [&&]
 # CMD ["node","server.js"]
